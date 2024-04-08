@@ -1,4 +1,4 @@
-newtons law of cooling
+***NEWTONS LAW OF COOLING***
 import math
 
 def newtons_law_of_cooling(T_initial, T_surroundings, k, t):
@@ -14,7 +14,7 @@ T_t = newtons_law_of_cooling(T_initial, T_surroundings, k, t)
 
 print(f"The temperature at time {t} seconds is {T_t:.2f} Celsius.")
 
-
+***BINOMIAL THEORM*** 
 def binomial_coefficient(n, k):
     if k < 0 or k > n:
         return 0
